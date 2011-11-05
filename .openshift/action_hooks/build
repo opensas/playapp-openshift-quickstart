@@ -3,3 +3,9 @@
 # available.  Otherwise it will execute while your application is stopped
 # before the deploy step.  This script gets executed directly, so it
 # could be python, php, ruby, etc.
+
+# check environment variables
+# export
+
+# do some clean up
+# rm -fr $OPENSHIFT_APP_DIR/jbossas-7.0/standalone/tmp/vfs/*
