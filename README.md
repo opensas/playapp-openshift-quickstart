@@ -39,11 +39,11 @@ That's it, you can now checkout your application at:
 
 Whenever you want to deploy your app, follow these steps, from the app's root folder
 
-    play app -o deployments/ROOT.war
+    play war -o deployments/ROOT.war --exclude deployments
     git add deployments
     git commit -m "a new deploy"
     git push
 
-
+For more information, and a detailed step by step guide, you can check [this article](https://github.com/opensas/play-demo/wiki/Step-12.5---deploy-to-openshift)
 
 
