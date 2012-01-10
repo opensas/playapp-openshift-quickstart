@@ -3,7 +3,7 @@ Play! framework sample application on OpenShift
 
 Play! is a Java Web framework for web developers made by Web developers. It's a clean alternative to bloated enterprise Java stacks that focuses on developer productivity and targets RESTful architectures.
 
-More information can be found on the official Piwik website at http://www.playframework.org/
+More information can be found on the official Play framework website at http://www.playframework.org/
 
 This git repository helps you get up and running quickly with a Play! framework installation on OpenShift Express. 
 
