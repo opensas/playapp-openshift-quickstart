@@ -18,7 +18,7 @@ Create a jboss AS 7.0 application
 
 You can optionally add MySQL support to your application
 
-	rhc-ctl-app -a cake -e add-mysql-5.1
+	rhc-ctl-app -a playapp -e add-mysql-5.1
 
 Check the conf/application.conf file for several options to configure your data source.
 
@@ -46,4 +46,19 @@ Whenever you want to deploy your app, follow these steps, from the app's root fo
 
 Check [this article](https://github.com/opensas/play-demo/wiki/Step-12.5---deploy-to-openshift) for more information, and a detailed step by step guide.
 
+Other useful resources
+----------------------
+
+- In order to work locally with your play project you'll have to install play framework.
+
+Check the [Play framework installation guide](http://www.playframework.org/documentation/latest/install)
+
+- Installing red hat cloud client tools
+
+Check [this article](https://www.redhat.com/openshift/community/kb/kb-e1000/installing-openshift-express-client-tools-on-non-rpm-based-systems)
+
+On ubuntu is as easy as:
+
+    sudo apt-get install ruby rubygems
+    sudo gem install rhc
 
