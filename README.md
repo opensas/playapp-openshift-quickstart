@@ -44,6 +44,14 @@ Whenever you want to deploy your app, follow these steps, from the app's root fo
     git commit -m "a new deploy"
     git push
 
+
+Note: some versions of play don't allow you to generate a war inside the application's folder. In that case you'll have to do something like this to generate the ROOT.war folder:
+
+    play war -o /tmp/deployments/ROOT.war --exclude deployments
+    rm -fr deployments/ROOT.war
+    mv /tmp/deployments/ROOT.war deployments/ROOT.war
+    rm -fr /tmp/deployments
+
 Check [this article](https://github.com/opensas/play-demo/wiki/Step-12.5---deploy-to-openshift) for more information, and a detailed step by step guide.
 
 Notes
