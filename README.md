@@ -46,6 +46,12 @@ Whenever you want to deploy your app, follow these steps, from the app's root fo
 
 Check [this article](https://github.com/opensas/play-demo/wiki/Step-12.5---deploy-to-openshift) for more information, and a detailed step by step guide.
 
+Notes
+-----
+
+- At the moment play framework deployment is not working with java 1.7, be sure to execute the play war command with a jdk 1.6.x installed
+
+
 Other useful resources
 ----------------------
 
