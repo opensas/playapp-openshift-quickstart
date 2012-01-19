@@ -57,8 +57,16 @@ Check the [Play framework installation guide](http://www.playframework.org/docum
 
 Check [this article](https://www.redhat.com/openshift/community/kb/kb-e1000/installing-openshift-express-client-tools-on-non-rpm-based-systems)
 
-On ubuntu is as easy as:
+On ubuntu and debian based linux distros is as easy as:
 
     sudo apt-get install ruby rubygems
     sudo gem install rhc
 
+- Installing git version control system
+
+Instructions for [linux](http://help.github.com/linux-set-up-git/), [mac](http://help.github.com/mac-set-up-git) and [windows](http://help.github.com/win-set-up-git/).
+
+
+On ubuntu and debian based linux distros is as easy as:
+
+    sudo apt-get install git
